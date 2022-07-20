@@ -38,8 +38,8 @@
 /* header section------------------ */
 /* side bar button section --------------*/
 .buttion-section{
-    margin-top: 40px;
-    width: 140px;
+    margin-top: 50px;
+    width: 100px;
     height: 150px;
     padding: 20px;
     margin-left: 40px;
@@ -95,8 +95,32 @@
 .contant-icon p{
   margin-top: 5px ;
 }
-.artical-contaner{
+.buttion-section{
     display: flex;
 }
-
-
+.live-contant-box{
+   margin-left: 50px;
+   margin-top: 0px;
+}
+.box{
+    /* height: 250px;
+    width:auto; 
+    width: 60%;  */
+    width: 260px;
+    height: 310px;
+    background-color: rgb(248 248 248);
+    border-radius: 10px;
+}
+.box img{
+   width: 100%;
+}
+.live-contant-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.contant-icon, p.fa-solid{
+    color: rgb(155, 149, 149);
+    margin-left: 6px;
+    margin-top: 10px;
+}
