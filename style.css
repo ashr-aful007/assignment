@@ -37,27 +37,27 @@
 }
 /* header section------------------ */
 /* side bar button section --------------*/
-.buttion-section{
-    margin-top: 50px;
+.sidebar-buttion{
+    display: flex;
+    flex-direction: column;
     width: 100px;
     height: 150px;
     padding: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     background-color: black;
     border-radius: 8px; 
 }
-.sidebar-buttion span a {
-    font-size: 14px;
+.sidebar-buttion a{
     display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 7px;
+    font-size: 14px;
     background-color: #fff;
-    padding-top: 10px; 
-    text-decoration: none; 
-    display: flex;
-    flex-direction: column;
-} 
+}
 #sidebar-btn1{
     background-color: #fff;
-    padding: 12px 8px ;
+    padding: 7px 8px ;
     margin-bottom: 10px;
     text-align: center;
     font-weight: 600;
@@ -96,8 +96,9 @@
 .contant-icon p{
   margin-top: 5px ;
 }
-.buttion-section{
+#artical-contaner{
     display: flex;
+    margin-top: 50px;
 }
 .live-contant-box{
    margin-left: 50px;
@@ -117,6 +118,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    margin-left: 10px;
 }
 .contant-icon, p.fa-solid{
     color: rgb(155, 149, 149);
@@ -140,5 +142,5 @@
 /* content section------------------  */
 /* footer section style----------------- */
 footer{
-   align-items: flex-end;
+   /* align-items: flex-end; */
 }
