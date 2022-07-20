@@ -83,6 +83,7 @@
     border-radius: 10px;
 }
 /* side bar button section---------x-------------*/
+/* content section------------------------ */
 .icon-section{
     display: flex;
 }
@@ -103,9 +104,6 @@
    margin-top: 0px;
 }
 .box{
-    /* height: 250px;
-    width:auto; 
-    width: 60%;  */
     width: 260px;
     height: 310px;
     background-color: rgb(248 248 248);
@@ -113,6 +111,7 @@
 }
 .box img{
    width: 100%;
+   margin-bottom: 10px;
 }
 .live-contant-box{
     display: grid;
@@ -123,4 +122,23 @@
     color: rgb(155, 149, 149);
     margin-left: 6px;
     margin-top: 10px;
+}
+.contant-tital a{
+    padding: 7px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.contant-tital p{
+    font-weight: 600;
+    margin-left: 5px;
+}
+/* content section------------------  */
+/* footer section style----------------- */
+footer{
+   align-items: flex-end;
 }
