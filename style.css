@@ -238,8 +238,9 @@ span{
 /* tablet button for middle section */
 .tablate-buttion{
     display: inline-block;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 10px;
 }
 #tab-btn1{
     padding: 8px;
@@ -316,6 +317,15 @@ span{
         width: 100%;
         height: auto;
     }
+    .tablate-buttion{
+        visibility: hidden;
+    }
+    .match-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: auto;
+    }
 
 }
 /* responsive section ------*/
@@ -324,5 +334,26 @@ span{
     .live-contant-box{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .sidebar-buttion{
+    visibility: hidden;
+    }
+    .match-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: auto;
+        width: 100%;
+        height: auto;
+    }
 
+
+/* responsive for dasktop */
+@media screen and (min-width:914px) and (max-width:1024px){
+    .tablate-btn{
+        visibility: hidden;
+   
+}
+    .tablate-buttion{
+    visibility: hidden;
+    }
 }
