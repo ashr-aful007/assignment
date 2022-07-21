@@ -209,10 +209,7 @@ footer hr{
     font-size:14px;
 
 }
-.match-preview-box{
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
-}
+
 .match-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -221,4 +218,111 @@ footer hr{
 span{
     font-weight: 600;
     padding: 10px;
+}
+/* tablet button section */
+/* for end section */
+.tablate-btn{
+    padding: 12px;
+    color: #fff;
+    display: inline-block;
+    background-color: #f0493d;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+/* tablet button for middle section */
+.tablate-buttion{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#tab-btn1{
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #f0493d;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+#tab-btn1:hover{
+    background-color: #f0493d;
+    transform: 0.1s;
+    color: #fff;
+
+}
+#tab-btn2{
+    padding: 8px 20px;
+    background-color: #fff;
+    border: 1px solid #f0493d;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+#tab-btn2:hover{
+    background-color: #f0493d;
+    transform: 0.1s;
+    color: #fff;
+
+}
+#tab-btn3{
+    padding: 8px 20px;
+    background-color: #fff;
+    border: 1px solid #f0493d;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+#tab-btn3:hover{
+    background-color: #f0493d;
+    transform: 0.1s;
+    color: #fff;
+
+}
+
+/* responsive section------------------------- */
+/* for smartphone */
+@media screen and (max-width:767px) {
+    .live-contant-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);       
+    }
+    .tablate-btn{
+        visibility: hidden;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+
+}
+/* responsive section ------*/
+/* for tablet ------*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .live-contant-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
 }
